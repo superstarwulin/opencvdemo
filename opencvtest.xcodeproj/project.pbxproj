@@ -62,6 +62,8 @@
 		C38C1E121D349A0F0039197F /* libopencv_videostab.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C38C1DDD1D349A0F0039197F /* libopencv_videostab.2.4.13.dylib */; };
 		C38C1E131D349A0F0039197F /* libopencv_videostab.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C38C1DDE1D349A0F0039197F /* libopencv_videostab.2.4.13.dylib */; };
 		C38C1E1B1D34CB570039197F /* brightness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38C1E191D34CB570039197F /* brightness.cpp */; };
+		C38C1E1E1D3628740039197F /* contrast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38C1E1C1D3628740039197F /* contrast.cpp */; };
+		C38C1E241D363F710039197F /* HistogramEqualization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38C1E221D363F710039197F /* HistogramEqualization.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +136,10 @@
 		C38C1DDE1D349A0F0039197F /* libopencv_videostab.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.13.dylib; path = ../../../../../../usr/local/lib/libopencv_videostab.2.4.13.dylib; sourceTree = "<group>"; };
 		C38C1E191D34CB570039197F /* brightness.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = brightness.cpp; sourceTree = "<group>"; };
 		C38C1E1A1D34CB570039197F /* brightness.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = brightness.hpp; sourceTree = "<group>"; };
+		C38C1E1C1D3628740039197F /* contrast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contrast.cpp; sourceTree = "<group>"; };
+		C38C1E1D1D3628740039197F /* contrast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = contrast.hpp; sourceTree = "<group>"; };
+		C38C1E221D363F710039197F /* HistogramEqualization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HistogramEqualization.cpp; sourceTree = "<group>"; };
+		C38C1E231D363F710039197F /* HistogramEqualization.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HistogramEqualization.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +297,10 @@
 			children = (
 				C38C1E191D34CB570039197F /* brightness.cpp */,
 				C38C1E1A1D34CB570039197F /* brightness.hpp */,
+				C38C1E1C1D3628740039197F /* contrast.cpp */,
+				C38C1E1D1D3628740039197F /* contrast.hpp */,
+				C38C1E221D363F710039197F /* HistogramEqualization.cpp */,
+				C38C1E231D363F710039197F /* HistogramEqualization.hpp */,
 			);
 			name = cvdemo;
 			sourceTree = "<group>";
@@ -353,6 +363,8 @@
 			files = (
 				C38C1E1B1D34CB570039197F /* brightness.cpp in Sources */,
 				C38C1D291D339B670039197F /* main.cpp in Sources */,
+				C38C1E241D363F710039197F /* HistogramEqualization.cpp in Sources */,
+				C38C1E1E1D3628740039197F /* contrast.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
